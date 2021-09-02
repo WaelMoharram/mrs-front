@@ -13,116 +13,53 @@ include('head.php')
         include('header.php')
         ?>
 
-        <?php
-        include('slider.php')
-        ?>
 
-		<!-- Content
+
+        <!-- Page Title
 		============================================= -->
-		<section id="content">
-			<div class="content-wrap">
+        <section id="page-title">
 
-				<div class="section header-stick">
-					<div class="container clearfix">
-						<div class="row">
+            <div class="container clearfix">
+                <h1>Shop Categories - Parallax</h1>
+                <span>Showcase of Our Shop Categories in Parallax Mode</span>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Shop</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Categories</li>
+                </ol>
+            </div>
 
-							<div class="col-lg-9">
-								<div class="heading-block bottommargin-sm">
-									<h3>We specialize in Robust Software Solutions</h3>
-								</div>
+        </section><!-- #page-title end -->
 
-								<p class="mb-0">Lasting change, stakeholders development Angelina Jolie world problem solving progressive. Courageous; social entrepreneurship change; accelerate resolve pursue these aspirations asylum.</p>
-							</div>
+        <!-- Content
+        ============================================= -->
+        <section id="content">
+            <div class="content-wrap">
 
-							<div class="col-lg-3">
-								<a href="#" class="button button-3d button-dark button-large w-100 center" style="margin-top: 30px;">Check our Services</a>
-							</div>
+                <div id="shop-categories" class="header-stick footer-stick clearfix">
 
-						</div>
-					</div>
-				</div>
+                    <a href="shop-list.php" class="entry-image mb-0" style="background: url('images/shop/category/15.jpg') no-repeat center center / cover; height:600px;" data-center="background-position: 50% 0px;" data-top-bottom="background-position:50% 200px;"></a>
 
-				
+                    <a  href="shop-list.php" class="entry-image mb-0" style="background: url('images/shop/category/17.jpg') no-repeat center center / cover; height:600px;" data-center="background-position: 50% 0px;" data-top-bottom="background-position:50% 200px;"></a>
 
-                <div class="container clearfix">
+                    <a href="shop-list.php" class="entry-image mb-0" style="background: url('images/shop/category/6.jpg') no-repeat center center / cover;height:600px;" data-center="background-position: 50% 0px;" data-top-bottom="background-position:50% 200px;"></a>
 
-                    <div class="row col-mb-50">
-                        <div class="col-lg-12">
-                            <div class="fancy-title title-border">
-                                <h4>Recent Posts</h4>
-                            </div>
+                    <a href="shop-list.php" class="entry-image mb-0" style="background: url('images/shop/category/10.jpg') no-repeat center center / cover; height:600px;" data-center="background-position: 50% 0px;" data-top-bottom="background-position:50% 200px;"></a>
 
-                            <div class="row posts-md col-mb-30">
-                                <div class="entry col-md-4">
-                                    <div class="grid-inner">
-                                        <div class="entry-image">
-                                            <a href="blog-single.php"><img src="images/magazine/thumb/11.jpg" alt="Image"></a>
-                                        </div>
-                                        <div class="entry-title title-sm nott">
-                                            <h3><a href="blog-single.php">Toyotas next minivan will let you shout at your kids without turning around</a></h3>
-                                        </div>
-                                        <div class="entry-meta">
-                                            <ul>
-                                                <li><i class="icon-calendar3"></i> 10th Feb 2021</li>
-                                                <li><a href="blog-single.php#comments"><i class="icon-comments"></i> 13</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="entry-content">
-                                            <p>Medecins du Monde eradicate sustainability free expression contribution assessment expert humanitarian relief.</p>
-                                        </div>
-                                    </div>
-                                </div>
+                    <a href="shop-list.php" class="entry-image mb-0" style="background: url('images/shop/category/14.jpg') no-repeat center center / cover; height:600px;" data-center="background-position: 50% 0px;" data-top-bottom="background-position:50% 200px;"></a>
 
-                                <div class="entry col-md-4">
-                                    <div class="grid-inner">
-                                        <div class="entry-image">
-                                            <a href="#"><img src="images/magazine/thumb/14.jpg" alt="Image"></a>
-                                        </div>
-                                        <div class="entry-title title-sm nott">
-                                            <h3><a href="blog-single.php">UK government weighs Tesla's Model S for its ??5 million electric vehicle fleet</a></h3>
-                                        </div>
-                                        <div class="entry-meta">
-                                            <ul>
-                                                <li><i class="icon-calendar3"></i> 10th Feb 2021</li>
-                                                <li><a href="blog-single.php#comments"><i class="icon-comments"></i> 13</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="entry-content">
-                                            <p>Urban public institutions life-saving women and children Rockefeller combat malaria honesty. Sustainability foster immunize treatment.</p>
-                                        </div>
-                                    </div>
-                                </div>
+                    <a href="shop-list.php" class="entry-image mb-0" style="background: url('images/shop/category/19.jpg') no-repeat center center / cover; height:600px;" data-center="background-position: 50% 0px;" data-top-bottom="background-position:50% 200px;"></a>
 
-                                <div class="entry col-md-4">
-                                    <div class="grid-inner">
-                                        <div class="entry-image">
-                                            <a href="#"><img src="images/magazine/thumb/11.jpg" alt="Image"></a>
-                                        </div>
-                                        <div class="entry-title title-sm nott">
-                                            <h3><a href="blog-single.php">Toyotas next minivan will let you shout at your kids without turning around</a></h3>
-                                        </div>
-                                        <div class="entry-meta">
-                                            <ul>
-                                                <li><i class="icon-calendar3"></i> 10th Feb 2021</li>
-                                                <li><a href="blog-single.php#comments"><i class="icon-comments"></i> 13</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="entry-content">
-                                            <p>Medecins du Monde eradicate sustainability free expression contribution assessment expert humanitarian relief.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <a href="shop-list.php" class="entry-image mb-0" style="background: url('images/shop/category/21.jpg') no-repeat center center / cover; height:600px;" data-center="background-position: 50% 0px;" data-top-bottom="background-position:50% 200px;"></a>
+
+                    <a href="shop-list.php" class="entry-image mb-0" style="background: url('images/shop/category/23.jpg') no-repeat center center / cover; height:600px;" data-center="background-position: 50% 0px;" data-top-bottom="background-position:50% 200px;"></a>
 
                 </div>
+            </div>
+        </section><!-- #content end -->
 
-			</div>
-		</section><!-- #content end -->
-
-		<!-- Footer
-		============================================= -->
+        <!-- Footer
+        ============================================= -->
 		<footer id="footer" class="dark">
 			<div class="container">
 
